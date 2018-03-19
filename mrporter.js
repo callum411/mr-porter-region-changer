@@ -1,6 +1,6 @@
 javascript:
 
-var Region = prompt("Please enter your region: ", "Mr Porter Region Changer");
+var Region = prompt("Please enter your region: ", "US | GB");
 
 if (Region) {
     post('https://www.mrporter.com/changecountry.mrp', {
